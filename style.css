@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'metropolis-mi';
+    src: url(./assets/Metropolis-MediumItalic.otf);
+}
+
+.zomato {
+    width: 35.5rem;
+    height: 196px;
+    overflow: hidden;
+    margin-inline: auto;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bali {
+    width: 34rem;
+    height: 268px;
+    overflow: hidden;
+    margin-inline: auto;
+    margin-top: 12px;
+    border-radius: 12px;
+    justify-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zomato-background {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    top: -76%;
+}
+
+.bali img {
+    width: 100%;
+    transform: scaleY(170%);
+    position: relative;
+    z-index: -1;
+    margin-top: -156px;
+}
+
+.p1 {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    top: 18%;
+    font-size: 2.5rem;
+    font-family: 'metropolis-mi';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    top: 18%;
+    font-size: 1.2rem;
+}
+
+.input {
+    width: 24rem;
+    background-color: white;
+    position: relative;
+    top: 24%;
+    margin: auto;
+    height: 24px;
+    border-radius: 4px;
+    align-content: center;
+    text-align: end;
+    padding: 3px 0px;
+    cursor: default;
+}
+
+.location-pin {
+    width: .54rem;
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+select {
+    border: none;
+    padding-right: 2.7rem;
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+
+select:focus {
+    outline: none;
+}
+.select-wrapper::after {
+    content: "|";
+    color: gray;
+}
+
+.search-icon {
+    width: .7rem;
+    position: relative;
+    top: 2px;
+    margin-left: 4px;
+}
+
+input[type="search"] {
+    border: none;
+    width: 13.5rem;
+    margin-right: 12px;
+    font-size: .8rem;
+}
+
+input[type="search"]::placeholder {
+    font-size: .68rem;
+}
+input[type="search"]:focus {
+    outline: none;
+}
+
+.bali-heading {
+    position: relative;
+    top: 32%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.desc1, .desc2 {
+    position: relative;
+    top: 32%;
+    font-size: .9rem;
+    margin: 0px 0px;
+}
+
+button {
+    display: block;
+    position: relative;
+    top: 36%;
+    border: none;
+    width: 7rem;
+    height: 36px;
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+button:hover {
+    background-color: orange;
+    color: white;
+}
